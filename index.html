@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honeypot AP Attack</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo CSS -->
+</head>
+<body>
+    <header>
+        <img src="honeypot.png" alt="Honeypot" style="width: 150px; height: 150; vertical-align: middle;">
+        <h1>Honeypot AP Attack</h1>
+        <nav>
+            <ul>
+                <li>Axel Corradine Marenco (79878)</li>
+                <li>Johan Sebastian Espino Riveros (128052)</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Abstract</h2>
+            <div class="contenido">
+                <div class="textod">
+                    <p>The honeypot access point attack is a cybersecurity technique in which a Wi-Fi access point is created, emitting a fake SSID that 
+                        simulates being legitimate to make its victims connect to it. This attack aims to get users to connect, allowing the attacker to 
+                        capture data or insert malware into the connected devices. The honeypot network is based on the concept of a decoy that attracts 
+                        the victims' attention, making them believe they are in a safe environment.</p>
+                </div>
+                <div class="imagen">
+                    <img src="Ataque.png" alt="Honeypot" style="width: 350px; height: auto; vertical-align: middle;">
+                </div>
+            </div>
+        </section>
+
+        <section id="glosario">
+            <h2>Glosario</h2>
+            <div class="contenido">
+                <dl>
+                    <dt>1. Ataque de punto de acceso de honeypot</dt>
+                    <dd>Técnica en ciberseguridad que crea un punto de acceso Wi-Fi falso para atraer a las víctimas y 
+                        capturar datos o insertar malware.</dd>
+                    
+                    <dt>2. SSID (Service Set Identifier)</dt>
+                    <dd>Nombre de una red Wi-Fi que se muestra a los dispositivos cercanos.</dd>
+                    
+                    <dt>3. Captura de datos</dt>
+                    <dd>Proceso mediante el cual un atacante intercepta y almacena información transmitida a través de la red.</dd>
+                    
+                    <dt>4. Malware</dt>
+                    <dd>Software malicioso diseñado para dañar, interrumpir o tomar el control de sistemas informáticos.</dd>
+                    
+                    <dt>5. Señuelo</dt>
+                    <dd>Estrategia utilizada para atraer a las víctimas, haciéndoles creer que están en un entorno seguro.</dd>
+    
+                    <dt>6. Intercepción de tráfico</dt>
+                    <dd>Técnica que permite a un atacante monitorear y capturar datos transmitidos entre dispositivos conectados a la red.</dd>
+    
+                    <dt>7. Inyección de malware</dt>
+                    <dd>Proceso de introducir software malicioso en los dispositivos conectados a la red.</dd>
+    
+                    <dt>8. Redes abiertas</dt>
+                    <dd> Redes Wi-Fi que no requieren autenticación para conectarse, lo que las hace vulnerables a ataques.</dd>
+    
+                    <dt>9. VPN (Virtual Private Network)</dt>
+                    <dd>ecnología que crea una conexión segura y cifrada a través de una red menos segura, como Internet.</dd>
+    
+                    <dt>10. Conexión automática</dt>
+                    <dd>Configuración de dispositivos que permite conectarse automáticamente a redes Wi-Fi conocidas o abiertas.</dd>
+                </dl>
+            </div> 
+
+        </section>
+
+        <section id="sobre">
+            <h2>¿En que consiste?</h2>
+            <div class="contenido">
+                <div class="imagen">
+                    <img src="consiste.jpg" alt="Honeypot" style="width: 300px; height: auto; vertical-align: middle;">
+                </div>
+                <div class="textoi">
+                    <p>El ataque consiste en que el atacante configura una red Wi-Fi con un nombre conocido o familiar (SSID), como "Wi-Fi_Público", "Wifi Gratis,"
+                        o cualquier nombre siempre que la red no tenga contraseña y se encuentre abierta, o con la clave visible, aunque esta opción es menos 
+                        factible para este tipo de ataques. Una vez conectadas, el atacante puede interceptar el tráfico de la red, capturando contraseñas, 
+                        sitios web visitados, datos bancarios y otra información sensible. Este tipo de red también puede usarse para instalar software malicioso 
+                        en los dispositivos de los usuarios.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Carasteristicas</h2>
+            <div class="contenido">
+                <div class="textod">
+                    <ol>
+                        <li>Falsa legitimidad: La red Wi-Fi se presenta como una opción confiable, imitando nombres comunes para parecer legítima.</li>
+                        <li>Captura de tráfico: Permite al atacante monitorear el tráfico de los dispositivos conectados, accediendo a datos y contraseñas.</li>
+                        <li>Inyección de malware: Puede facilitar la instalación de malware en los dispositivos.</li>
+                        <li>Ocultamiento: Al simular un nombre de red común, muchos usuarios no sospechan de la trampa.</li>
+                        <li> Flexibilidad del ataque: El atacante puede decidir entre capturar datos, realizar ataques de "man-in-themiddle" o infectar dispositivos.</li>
+                    </ol>        
+                </div>
+                <div class="imagen">
+                    <img src="caracteristivas.jpg" alt="Honeypot" style="width: 300px; height: auto; vertical-align: middle;">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Escenarios</h2>
+            <div class="contenido">
+                <div class="imagen">
+                    <img src="escenarios.jfif" alt="Honeypot" style="width: 350px; height: auto; vertical-align: middle;">
+                </div>
+                <div class="textoi">
+                    <ol>
+                        <li>Áreas públicas con Wi-Fi gratuito, cafés, aeropuertos, y centros comerciales, donde los usuarios tienden a conectarse a redes abiertas sin verificarlas.</li>
+                        <li>Zonas donde la gente espera redes conocidas, por ejemplo, cerca de un hotel o una cadena de tiendas, donde los usuarios creen que la red es del lugar.</li>
+                        <li>Redes corporativas donde el atacante simula una red similar a la de la empresa para engañar a empleados y obtener acceso a información sensible</li>
+                    </ol>  
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Controles Proactivos</h2>
+            <div class="contenido">
+                <div class="textod">
+                    <ol>
+                        <li>Verificación de redes: En lugares públicos, preguntar al personal para confirmar el nombre de la red antes de conectarse.</li>
+                        <li>Uso de VPN: Una VPN cifra el tráfico, haciendo que, incluso en una red falsa, los datos del usuario sean difíciles de interceptar.</li>
+                        <li>Desactivar la conexión automática a redes abiertas: Esto permite al usuario verificar cada red antes de conectarse.</li>
+                        <li>Mantener el dispositivo actualizado: Las actualizaciones de seguridad protegen contra posibles vulnerabilidades.</li>
+                    </ol>        
+                </div>
+                <div class="imagen">
+                    <img src="Conroles proactivos.jfif" alt="Honeypot" style="width: 350px; height: auto; vertical-align: middle;">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>¿Como se contrarestan?</h2>
+            <div class="contenido">
+                <div class="imagen">
+                    <img src="contrarestar.webp" alt="Honeypot" style="width: 300px; height: auto; vertical-align: middle;">
+                </div>
+                <div class="textoi">
+                    <ol>
+                        <li>Bloqueo de conexiones automáticas: Configurar dispositivos para que no se conecten automáticamente a redes Wi-Fi abiertas.</li>
+                        <li>Monitorización y análisis de red: Los sistemas de seguridad de redes pueden detectar patrones anómalos en las conexiones Wi-Fi y alertar de posibles redes honeypot.</li>
+                        <li>Concienciación del usuario: Educar a los usuarios sobre los riesgos de conectarse a redes abiertas desconocidas y cómo identificar posibles honeypots.</li>
+                        <li>Utilización de soluciones de seguridad de red: Los sistemas avanzados de seguridad en redes pueden identificar ataques de honeypot y mitigarlos.</li>
+                    </ol>  
+                </div>
+            </div>
+        </section>
+        <section id="bibliografia">
+            <h2>Bibliografía</h2>
+            <ul>
+                <li>
+                    <cite>Microsoft 365, “What is a honeypot attack?,” Microsoft 365, Jan. 05, 2023. Available: https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/what-is-ahoneypot-attack. [Accessed: Oct. 27, 2024]</cite>
+                </li>
+                <li>
+                    <cite>Digital Defender, “What is a Honeypot AP Attack? - Digital Defender - Medium,” Medium, Sep. 06, 2024. Available: https://cyberconsultingcompany.medium.com/what-is-a-honeypot-ap-attackfaebe4894b01. [Accessed: Oct 30, 2024]</cite>
+                </li>
+                <li>
+                    <cite>Juniper Networks, “Rogue, Neighbor, and Honeypot Access Points,” Juniper Networks, Aug. 28, 2024.</i></cite>
+                </li>
+                <li>
+                    <cite>Kennedy Muthii, “Using WPA2 WiFi Honeypot for Ethical Hacks [Step-by-Step],” GoLinuxCloud, Jul. 19, 2022.</cite>
+                </li>
+                <li>
+                    <cite>Narendran Vaideeswaran, “What is a Honeypot in Cybersecurity?” CrowdStrike, Mar. 09, 2022.</cite>
+                </li>
+            </ul>
+        </section>
+        <section id="sobre">
+            <h2>Pregunta Parcial</h2>
+            <div class="contenido">
+                <div class="imagen">
+                    <img src="contrarestar.webp" alt="Honeypot" style="width: 300px; height: auto; vertical-align: middle;">
+                </div>
+                <div class="textoi">
+                    <p>¿Cuál es el objetivo principal del ataque de punto de acceso de honeypot?</p>
+                    <ul>
+                        <li>A) Capturar datos o insertar malware en los dispositivos conectados.</li>
+                        <li>B) Mejorar la velocidad de la red Wi-Fi.</li>
+                        <li>C) Proporcionar acceso gratuito a Internet.</li>
+                        <li>D) Aumentar la cobertura de la red Wi-Fi.</li>
+                    </ul> 
+                    <p>Respuesta correcta: <br> A) Capturar datos o insertar malware en los dispositivos conectados.</p> 
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ataque de honeypot. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

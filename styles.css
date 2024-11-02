@@ -1,0 +1,137 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #ffc30b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textod {
+    flex: 1; /* Toma el espacio restante */
+    margin-right: 20px; /* Espacio entre texto e imagen */
+}
+
+.textoi {
+    flex: 1; /* Toma el espacio restante */
+    margin-left: 20px; /* Espacio entre texto e imagen */
+}
+
+.imagen {
+    flex-shrink: 0; /* Evita que la imagen se reduzca */
+}
+
+#glosario {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.contenido {
+    display: flex;
+    align-items: flex-start; /* Alinea el texto y la imagen al inicio */
+}
+
+dl {
+    margin: 0;
+    flex: 1; /* Permite que el glosario ocupe el espacio restante */
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.imagen {
+    margin-left: 20px; /* Espacio entre el glosario y la imagen */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #35424a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #ffc30b;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4a596a;
+}
